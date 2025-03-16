@@ -44,7 +44,7 @@ public class F1RaceCar extends F1Car implements TelemetrySystem {
 
     @Override
     public void analyzePerformance(F1RaceCar car) {
-        car.toString();
+        super.displaystas();
         System.out.println("Performance analyzed");
     }
 }

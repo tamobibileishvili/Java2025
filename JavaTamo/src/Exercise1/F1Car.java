@@ -99,16 +99,13 @@ public class F1Car extends F1Vehicle {
                 ", speed=" + speed +
                 ", fuelLevel=" + fuelLevel +
                 ", engineOn=" + engineOn +
-                ", tireCondition=" + tireCondition +
-                '}';
+                ", tireCondition=" + tireCondition;
     }
 
     public String displaystas() {
-        return "Exercise1.F1Car{" +
-                "teamName='" + teamName + '\'' +
+        return  "teamName='" + teamName + '\'' +
                 ", speed=" + speed +
                 ", fuelLevel=" + fuelLevel +
-                ", engineOn=" + engineOn +
-                '}';
+                ", engineOn=" + engineOn;
     }
 }

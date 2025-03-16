@@ -40,5 +40,9 @@ public class Main {
         FerrariTeam.performPitStop(Ferrari);
         RedBullTeam.performPitStop(RedBull);
         MercedesTeam.performPitStop(Mercedes);
+
+        Mercedes.accelerate(100);
+        System.out.println(Mercedes.displaystas());
+
     }
 }
