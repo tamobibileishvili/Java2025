@@ -4,6 +4,10 @@ public class Circle {
     private double radius;
 
     public Circle(double radius) {
+        if(radius <= 0) {
+            System.out.println("Invalid radius");
+            return;
+        }
         this.radius = radius;
     }
 

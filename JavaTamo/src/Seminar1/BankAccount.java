@@ -7,6 +7,12 @@ public class BankAccount {
 
     private double balance;
 
+    public BankAccount(String accountHolder, String accountNumber) {
+        this.accountHolder = accountHolder;
+        this.accountNumber = accountNumber;
+        this.balance = 0;
+    }
+
     public String getAccountHolder() {
         return accountHolder;
     }
@@ -36,7 +42,7 @@ public class BankAccount {
     }
 
     public void deposit(double amount) {
-        if (amount < 0) {
+        if (amount <= 0) {
             System.out.println("Invalid amount");
         } else {
             this.balance += amount;

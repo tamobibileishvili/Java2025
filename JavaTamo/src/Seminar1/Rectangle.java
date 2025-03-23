@@ -6,6 +6,10 @@ public class Rectangle {
     private double width;
 
     public Rectangle(double length, double width) {
+        if(length <= 0 || width <= 0) {
+            System.out.println("Invalid dimensions");
+            return;
+        }
         this.length = length;
         this.width = width;
     }

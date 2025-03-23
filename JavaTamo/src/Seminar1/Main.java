@@ -2,6 +2,14 @@ package Seminar1;
 
 public class Main {
     public static void main(String[] args) {
+
+        BankAccount bankAccount = new BankAccount("John Doe", "1234567890");
+        bankAccount.deposit(100);
+        bankAccount.deposit(0);
+        bankAccount.withdraw(-100);
+        bankAccount.withdraw(-50);
+        bankAccount.withdraw(200);
+
         Rectangle rectangle = new Rectangle(5, 10);
         Rectangle rectangle1 = new Rectangle(10, 20);
 
